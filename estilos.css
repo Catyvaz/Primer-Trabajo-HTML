@@ -1,0 +1,31 @@
+body{
+    background-color: #eaffce ;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    columns: 4;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+a{
+    color: blueviolet;
+    size: 10px;
+}
+
+ul li{
+    color: rgb(201, 63, 255);
+    font-size: 18px;
+    font: bold;
+}
+
+menu > li{
+    color:darkblue; 
+    font-size: 15px;
+}
+
+ol > li{
+    color:darkred; 
+    font-size: 15px;
+}
