@@ -29,3 +29,12 @@ ol > li{
     color:darkred; 
     font-size: 15px;
 }
+.no_terminados{
+    background-attachment: fixed;
+    justify-items: right;
+}
+
+.div_h{
+    background-color: bisque;
+    justify-content: center;
+}
