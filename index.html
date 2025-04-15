@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML5</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            columns: 3;
+            -webkit-columns: 3;
+            -moz-columns: 3;
+            gap: 2rem;
+            padding-left: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Listado de etiquetas válidas en HTML5</h1>
+    <p>A continuación se enumeran todas las etiquetas reconocidas por HTML5 actualmente:</p>
+    <ul>
+        <li>&lt;a&gt;</li>
+        <p>Ejemplo; <a href="https://www.mercadolibre.com.ar">Link de referencia.</a></p>
+
+        <li>&lt;abbr&gt;</li>
+        <p>Ejemplo; Estamos aprendiendo <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+        <li>&lt;area&gt;</li>
+        <p>Permite definir áreas clicables dentro de una imagen para redirigir al usuario a un enlace o realizar una
+            acción específica.</p>
+
+        <li>&lt;article&gt;</li>
+        <article>
+            <h3>Ejemplo de etiqueta Article</h3>
+            <p>Esta etiqueta representa contenido independiente y autónomo (Blog, Noticia). Tiene sentido por sí mismo.
+            </p>
+        </article>
+
+        <li>&lt;aside&gt;</li>
+        <aside>
+            <h3>Ejemplo de etiqueta Aside</h3>
+            <p>Contenido relacionado con el tema principal. Puede contener información adicional, como una barra lateral
+                o un bloque de citas.</p>
+        </aside>
+
+        <li>&lt;audio&gt;</li>
+
+        <li>&lt;b&gt;</li>
+        <p>Ejemplo; <b>Texto en negrita</b>, texto normal</p>
+
+        <li>&lt;base&gt;</li>
+        <p>Se coloca en el "head", afecta a todo el documento. Se utiliza para especificar un URL o target base.</p>
+
+        <li>&lt;bdi&gt;</li>
+        <p>Bi-Directional Isolation, para fragmentos de texto en otro idioma o con dirección distinta.</p>
+        <p>Ejemplo; Usuario <bdi>مرحبا</bdi> ha iniciado sesión.</p>
+
+        <li>&lt;bdo&gt;</li>
+        <p>Bi-Directional Override, para cambiar la dirección de un texto.</p>
+        <p>Ejemplo; <bdo dir="rtl">Texto de derecha a izquierda</bdo></p>
+
+        <li>&lt;blockquote&gt;</li>
+        <p>Para citas largas de fuente externa</p>
+        <blockquote>
+            <p>Ejemplo; "Solo sé que no sé nada" - Sócrates </p>
+        </blockquote>
+
+        <li>&lt;body&gt;</li>
+        <p>Define el "body" o "cuerpo" del documento, contiene el contenido de los documentos HTML</p>
+
+        <li>&lt;br&gt;</li>
+        <p>Se utiliza como salto de linea</p>
+        <p>Ejemplo; <br>Texto en una línea<br>Texto en otra línea</p>
+
+        <li>&lt;button&gt;</li>
+        <button type="button">Click!</button>
+
+        <li>&lt;canvas&gt;</li>
+        <p>Se utiliza para dibujar gráficos usando JavaScript</p>
+
+        <li>&lt;caption&gt;</li>
+        <p>Se utiliza para definir un título o leyenda para una tabla</p>
+        <p>Ejemplo; <caption>Título de la tabla</caption></p>
+
+        <li>&lt;cite&gt;</li>
+        <p>Ejemplo; la película <cite>How to Train Your Dragon</cite> fue lanzada en 2010 y se convirtió en un éxito de
+            taquilla.</p>
+
+        <li>&lt;code&gt;</li>
+        <p>Se utiliza para definir partes de codigos, ejemplo; la etiqueta para botones es <code>button</code> y se le puede cambiar el color con <code>background-color</code></p>
+
+        <li>&lt;col&gt;</li>
+        <p>Se utiliza para definir las propiedades de las columnas dentro de una tabla</p>
+
+        <li>&lt;colgroup&gt;</li>
+        <p>Se utiliza para especificar el formato de una o más columnas de una tabla</p>
+
+        <li>&lt;data&gt;</li>
+        <p>Se utiliza para asociar un valor con un contenido, ejemplo; <data value="2023-10-01">1 de octubre de 2023</data></p>
+
+        <li>&lt;datalist&gt;</li>
+        <p>Se utiliza para definir una lista de opciones predefinidas para un elemento de entrada (input)</p>
+
+        <li>&lt;dd&gt;</li>
+        <p>Se utiliza para definir una descripción de un término dentro de una lista de definiciones. Se utiliza junto a la etiqueta &lt;dl&gt; y &lt;dt&gt; </p>
+
+        <li>&lt;del&gt;</li>
+        <p>Se utiliza para definir texto que ha sido eliminado de un documento</p>
+        <p>Ejemplo; <del>Texto eliminado</del></p>
+
+        <li>&lt;details&gt;</li>
+        <p>Se utiliza para crear un cuadro de detalles que el usuario puede abrir o cerrar</p>
+        <details>
+            <summary>Detalles</summary>
+            <p>Contenido adicional que se puede mostrar u ocultar.</p>
+        </details>
+        <br>
+
+        <li>&lt;dfn&gt;</li>
+        <p>Se utiliza para definir un término o frase dentro de un documento</p>
+        <p>Ejemplo; <dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages.</p>
+
+        <li>&lt;dialog&gt;</li>
+        <p>Se utiliza para crear un cuadro de diálogo o ventana emergente</p>
+        <!--<dialog open>
+            <p>Este es un cuadro de diálogo.</p>
+            <button type="button">Cerrar</button>
+        </dialog>-->
+
+        <li>&lt;div&gt;</li>
+        <div>
+            <h4>Ejemplo div</h4>
+            <p>Se utiliza para definir una sección o division dentro de un documento, contiene los elementos HTML. Se le puede dar estilo</p>
+        </div>
+
+        <li>&lt;dl&gt;</li>
+        <p>Se utiliza para definir una lista de definiciones</p>
+
+        <li>&lt;dt&gt;</li>
+        <p>Se utiliza para definir un término dentro de una lista de definiciones</p>
+
+        <li>&lt;em&gt;</li>
+        <p>Se utiliza para definir texto enfatizado. Suele ser italica/cursiva</p>
+        <p>Ejemplo; <em>Texto en cursiva</em>, texto normal</p>
+
+        <li>&lt;embed&gt;</li>
+        <p>Se utiliza para incrustar contenido interactivo externo, como videos o archivos multimedia</p>
+
+        <li>&lt;fieldset&gt;</li>
+        <p>Se utiliza para agrupar elementos dentro de un formulario, dibuja un cuadro al rededor de los elementos</p>
+
+        <li>&lt;figcaption&gt;</li>
+        <p>Se utiliza para definir un título o leyenda para un elemento &lt;figure&gt;</p>
+
+        <li>&lt;figure&gt;</li>
+        <p>Se utiliza para definir contenido independiente, como imágenes o gráficos, junto con su descripción</p>
+        <li>&lt;footer&gt;</li>
+        <li>&lt;form&gt;</li>
+        <li>&lt;h1&gt;</li>
+        <li>&lt;h2&gt;</li>
+        <li>&lt;h3&gt;</li>
+        <li>&lt;h4&gt;</li>
+        <li>&lt;h5&gt;</li>
+        <li>&lt;h6&gt;</li>
+        <li>&lt;head&gt;</li>
+        <li>&lt;header&gt;</li>
+        <li>&lt;hr&gt;</li>
+        <li>&lt;html&gt;</li>
+        <li>&lt;i&gt;</li>
+        <li>&lt;iframe&gt;</li>
+        <li>&lt;img&gt;</li>
+        <li>&lt;input&gt;</li>
+        <li>&lt;ins&gt;</li>
+        <li>&lt;kbd&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;legend&gt;</li>
+        <li>&lt;li&gt;</li>
+        <li>&lt;link&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;map&gt;</li>
+        <li>&lt;mark&gt;</li>
+        <li>&lt;math&gt;</li>
+        <li>&lt;menu&gt;</li>
+        <li>&lt;menuitem&gt;</li>
+        <li>&lt;meta&gt;</li>
+        <li>&lt;meter&gt;</li>
+        <li>&lt;nav&gt;</li>
+        <li>&lt;noscript&gt;</li>
+        <li>&lt;object&gt;</li>
+        <li>&lt;ol&gt;</li>
+        <li>&lt;optgroup&gt;</li>
+        <li>&lt;option&gt;</li>
+        <li>&lt;output&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;param&gt;</li>
+        <li>&lt;pre&gt;</li>
+        <li>&lt;progress&gt;</li>
+        <li>&lt;q&gt;</li>
+        <li>&lt;rp&gt;</li>
+        <li>&lt;rt&gt;</li>
+        <li>&lt;ruby&gt;</li>
+        <li>&lt;s&gt;</li>
+        <li>&lt;samp&gt;</li>
+        <li>&lt;script&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;select&gt;</li>
+        <li>&lt;slot&gt;</li>
+        <li>&lt;small&gt;</li>
+        <li>&lt;source&gt;</li>
+        <li>&lt;span&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;style&gt;</li>
+        <li>&lt;sub&gt;</li>
+        <li>&lt;summary&gt;</li>
+        <li>&lt;sup&gt;</li>
+        <li>&lt;svg&gt;</li>
+        <li>&lt;table&gt;</li>
+        <li>&lt;tbody&gt;</li>
+        <li>&lt;td&gt;</li>
+        <li>&lt;template&gt;</li>
+        <li>&lt;textarea&gt;</li>
+        <li>&lt;tfoot&gt;</li>
+        <li>&lt;th&gt;</li>
+        <li>&lt;thead&gt;</li>
+        <li>&lt;time&gt;</li>
+        <li>&lt;title&gt;</li>
+        <li>&lt;tr&gt;</li>
+        <li>&lt;track&gt;</li>
+        <li>&lt;u&gt;</li>
+        <li>&lt;ul&gt;</li>
+        <li>&lt;var&gt;</li>
+        <li>&lt;video&gt;</li>
+        <li>&lt;wbr&gt;</li>
+    </ul>
+</body>
+
+</html>
