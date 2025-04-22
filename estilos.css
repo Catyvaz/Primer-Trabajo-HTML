@@ -32,9 +32,29 @@ ol > li{
 .no_terminados{
     background-attachment: fixed;
     justify-items: right;
+    background-color: #fdc791;
+    border-radius: 10px;
+    padding: 10px; 
 }
 
 .div_h{
     background-color: bisque;
     justify-content: center;
+}
+
+.links{
+    background-color: #a8f1e2;
+    border-radius: 50px;
+    padding: 10px; 
+    text-align: center;
+}
+
+.row > div {
+    background-color: #f0f8ff; /* Color de fondo */
+    border: 2px solid #000;   /* Borde negro */
+    border-radius: 10px;      /* Bordes redondeados */
+    padding: 20px;            /* Espaciado interno */
+    text-align: center;       /* Centrar el texto */
+    font-weight: bold;        /* Texto en negrita */
+    height: 300px;
 }
