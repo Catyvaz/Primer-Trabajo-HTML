@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="barra-arriba navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Catherine Bustos Vazquez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-header text-white text-center py-5">
+        <div class="container">
+            <img src="imagenPortada.jpg" height="130" class="rounded-circle mb-3" alt="Foto de perfil">
+            <h1>Catherine Bustos Vazquez</h1>
+            <p class="lead">Desarrolladar | Tester QA | Apasionada por la tecnología</p>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre mí</h2>
+            <p class="text-center ms-5">Soy Catherine Bustos Vazquez, estudiante en el último año de la tecnicatura en Desarrollo de Software. Me especializo en testing y desarrollo back-end, con conocimientos en Java, Python, Selenium, bases de datos y herramientas como Git, Jira y Trello. Actualmente amplío mi formación en automatización de pruebas y tecnologías web como JavaScript, TypeScript y HTML/CSS. Me apasiona seguir aprendiendo y mejorando.</p>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Descripción breve de tu proyecto.</p>
+                            <a href="#" class="btn btn-outline-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más proyectos... -->
+            </div>
+        </div>
+    </section>
+
+    <div class="row ms-5">
+        <section id="eduacion" class="py-5 col-md-6">
+            <div class="contenedor text-start mb-3 ms-5 p">
+                <h2 class="mb-4">Educación</h2>
+                <h4>Testeador de Software - QA Manager</h4>
+                <p class="lugar_fecha">Universidad Tecnológica Nacional | A distancia | 2022</p>
+                <h4>Inglés</h4>
+                <p class="lugar_fecha">Instituto Walt Whitman | Villa Carlos Paz | 2008-2018</p>
+            </div>
+        </section>
+        <section id="tecnologias" class="py-5 col-md-6">
+            <div class="contenedor text-start mb-3">
+                <h2 class="mb-4">Tecnologías</h2>
+            </div>
+        </section>
+    </div>
+    
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Contacto</h2>
+            <a href="https://github.com/Catyvaz" class="btn btn-dark me-3 " target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/caty-bustos-vazquez" class="btn btn-primary me-3" target="_blank">LinkedIn</a>
+            <a href="mailto:tucorreo@ejemplo.com" class="btn btn-outline-secondary">Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            &copy; 2025 Catherine Bustos Vazquez. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

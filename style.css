@@ -1,0 +1,7 @@
+.hero-header {
+    background-image: url('Diseño\ sin\ título\ \(1\).png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    position: relative; /* Necesario para el overlay */
+    color: white; /* Asegura que el texto sea legible */
+}

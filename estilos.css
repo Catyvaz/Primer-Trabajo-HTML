@@ -58,3 +58,11 @@ ol > li{
     font-weight: bold;        /* Texto en negrita */
     height: 300px;
 }
+
+.row > .col-4{
+    background-color: #fdc791;
+    padding: 25px;
+    height: 400px;
+}
+
+.row > div > div{}
